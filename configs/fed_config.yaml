@@ -1,0 +1,25 @@
+# Federated Learning Configuration
+federated:
+  num_clients: 4
+  num_rounds: 50
+  batch_size: 64
+  learning_rate: 0.001
+  local_epochs: 5
+  
+model:
+  input_dim: null  # Will be set dynamically
+  hidden_dims: [128, 64, 32]
+  output_dim: 9  # Number of classes
+  dropout: 0.3
+
+data:
+  test_split: 0.2
+  validation_split: 0.1
+  random_state: 42
+
+fedadam:
+  beta1: 0.9
+  beta2: 0.999
+  epsilon: 1e-8
+  eta: 0.01
+  tau: 1e-3
