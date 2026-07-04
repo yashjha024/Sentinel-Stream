@@ -19,7 +19,6 @@ The system is designed to detect a wide range of attacks—including DDoS, Probe
 
 - [Author](#author)
 - [Features](#features)
-- [System Architecture](#system-architecture)
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
@@ -42,13 +41,6 @@ The system is designed to detect a wide range of attacks—including DDoS, Probe
 - **Privacy-Preserving**: No centralized data collection; only model updates are shared.
 - **Scalable & Modular**: Easily extendable to more clients, new attack types, or additional real-time analytics.
 - **Comprehensive Monitoring**: Enhanced alerting, statistics, and real-time dashboard.
-
----
-
-## System Architecture
-
-![image alt](https://github.com/yashjha024/Sentinel-Stream/blob/main/System_Architecture.png?raw=true)
-
 
 ---
 
